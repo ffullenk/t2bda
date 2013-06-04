@@ -5,7 +5,6 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -36,3 +35,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem "mysql2", ">= 0.3.11"
+gem "compass-rails", ">= 1.0.3", :group => :assets
+gem "zurb-foundation", ">= 4.0.9", :group => :assets
+gem "simple_form", ">= 2.1.0"

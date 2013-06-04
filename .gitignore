@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #----------------------------------------------------------------------------
 # Ignore these files when commiting to a git repository.
 #
@@ -93,4 +92,3 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
->>>>>>> d7ca6e41c69547d6424b84498671d5a8e2c46809

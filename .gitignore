@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #----------------------------------------------------------------------------
 # Ignore these files when commiting to a git repository.
 #
@@ -75,3 +76,21 @@ pickle-email-*.html
 
 # Ignore application configuration
 /config/application.yml
+=======
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+>>>>>>> d7ca6e41c69547d6424b84498671d5a8e2c46809

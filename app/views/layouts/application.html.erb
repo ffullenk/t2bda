@@ -9,17 +9,71 @@
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
   </head>
-  <body class="<%= controller_name %> <%= action_name %>">
-    <div id="container" class="container">
-      <header>
-        <%= render 'layouts/navigation' %>
+
+
+  <body>
+
+<header>
+       
         <%= render 'layouts/messages' %>
       </header>
-      <div id="main" role="main">
-        <%= yield %>
-      </div>
-      <footer>
+
+
+
+<div class="row">
+    <div class="large-12 columns">
+
+     <%= render 'layouts/navigation' %>
+
+ <%= yield %>
+
+      
+
+    <!-- Footer -->
+
+      <footer class="row">
+        <div class="large-12 columns"><hr />
+          <div class="row">
+
+            <div class="large-6 columns">
+              <p>&copy; Copyright no one at all. Go to town.</p>
+            </div>
+
+            <div class="large-6 columns">
+              <ul class="inline-list right">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
       </footer>
-    </div> <!--! end of #container -->
+
+    <!-- End Footer -->
+
+    </div>
+  </div>
+
+
+
+
   </body>
+
+
+
+
 </html>
+
+
+
+
+
+
+
+
+
+
+

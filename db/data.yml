@@ -1,0 +1,96 @@
+
+---
+productos:
+  columns:
+  - id
+  - nombre
+  - precio
+  - encodedsqlrow
+  - created_at
+  - updated_at
+  - img
+  records: 
+  - - 1
+    - Sony LCD 32 Full HD
+    - 900
+    - marcasony pulgadas32 mayoraquinientos menoramil tipolcd
+    - 
+    - 
+    - http://www.lainterfaz.com/wp-content/uploads/2011/05/sony-deficit.jpg
+  - - 2
+    - Sony LED 42 3D
+    - 1600
+    - marcasony tipoled pulgadas42 mayoramilquinientos menoradosmil es3d
+    - 
+    - 
+    - http://www.lainterfaz.com/wp-content/uploads/2011/05/sony-deficit.jpg
+  - - 3
+    - Sony LCD 42 Full HD
+    - 1400
+    - marcasony pulgadas42 mayoramil menoramilquinientos tipolcd
+    - 
+    - 
+    - http://www.lainterfaz.com/wp-content/uploads/2011/05/sony-deficit.jpg
+  - - 4
+    - LG LED 42 3D
+    - 1550
+    - marcalg tipoled pulgadas42 mayoramilquinientos menoradosmil es3d
+    - 
+    - 
+    - https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR93RIi9O36veUvr3FJELkJeiZ65-ZFxtXe7B0Q2IOz8HGZRudpmg
+  - - 5
+    - Samsung LED 32 3D
+    - 1300
+    - marcasamsung pulgadas32 mayoramil menoramilquinientos tipoled es3d
+    - 
+    - 
+    - http://blog.uchceu.es/informatica/files/2013/05/Samsung-Logo.jpg
+  - - 6
+    - Samsung LCD 42
+    - 1100
+    - marcasamsung pulgadas42 mayoramil menoramilquinientos tipolcd
+    - 
+    - 
+    - http://blog.uchceu.es/informatica/files/2013/05/Samsung-Logo.jpg
+  - - 7
+    - AOC LED 32 FULL HD
+    - 850
+    - marcaaoc tipoled menoramil mayoraquinientos pulgadas42
+    - 
+    - 
+    - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGUimPJm72sZE0seKvAhEKaUEoCWx9Cnub5z33faPLS3Q02Qol
+  - - 8
+    - LG LED 3D 50
+    - 2100
+    - marcalg tipoled mayoradosmil pulgadas50 es3d
+    - 
+    - 
+    - https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR93RIi9O36veUvr3FJELkJeiZ65-ZFxtXe7B0Q2IOz8HGZRudpmg
+  - - 9
+    - AOC LCD 42 FULL HD
+    - 950
+    - marcaaoc tipolcd menoramil mayoraquinientos pulgadas42
+    - 
+    - 
+    - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGUimPJm72sZE0seKvAhEKaUEoCWx9Cnub5z33faPLS3Q02Qol
+  - - 10
+    - TOSHIBA LCD 32 FULL HD
+    - 700
+    - marcatoshiba tipolcd menoramil  pulgadas32 mayoraquinientos
+    - 
+    - 
+    - https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR1ImimfDAfM55jH-xbNvMWxA0zjPN363lxB5b1U1UpJVICIlDX
+  - - 11
+    - Samsung LED 50
+    - 1900
+    - marcasamsung pulgadas50 mayoramilquinientos menoradosmil tipoled
+    - 
+    - 
+    - http://blog.uchceu.es/informatica/files/2013/05/Samsung-Logo.jpg
+  - - 12
+    - Samsung LED 50 3D
+    - 2300
+    - marcasamsung pulgadas50 mayoradosmil tipoled es3d
+    - 
+    - 
+    - http://blog.uchceu.es/informatica/files/2013/05/Samsung-Logo.jpg

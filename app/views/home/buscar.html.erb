@@ -1,0 +1,100 @@
+<div class="large-9 push-3 columns">
+
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <h2>Buscar productos</h2>
+
+	
+			<fieldset>
+            <legend>Búsqueda</legend>
+
+             <%= simple_form_for :busqueda, :url => buscar_path, :html =>{ :class => 'custom' } do |f| %>
+             <fieldset>
+            <legend>Marca</legend>
+             <%= f.input :marca, collection: @marcas, prompt: "Seleccione" %>
+
+<div class="large-5 columns">
+
+         <%= f.input :marca_importancia, collection: @importancias, label: "", required: false%>
+          </div>
+
+    </fieldset>
+
+  <fieldset>
+            <legend>Tipo</legend>
+      <%= f.input :tipo, collection: @tipos, prompt: "Seleccione" %>
+
+           <div class="large-5 columns">
+      <%= f.input :tipo_importancia, collection: @importancias, label: "", required: false %>
+    </div>
+
+    </fieldset>
+
+
+    <fieldset>
+            <legend>Tamaño</legend>
+      <%= f.input :tamanio, collection: 32..60, prompt: "Seleccione", :label=>"Tamaño" %>
+
+           <div class="large-5 columns">
+      <%= f.input :tamanio_importancia, collection: @importancias, label: "", required: false %>
+    </div>
+
+    </fieldset>
+
+
+    <fieldset>
+            <legend>Precio</legend>
+      <%= f.input :min_price,:as => :hidden%>
+      <%= f.input :max_price,:as => :hidden%>
+		
+
+
+<p>
+  <label for="amount">Rango de Precio:</label>
+  <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" />
+</p>
+<div id="slider-range"></div>
+   <div class="large-5 columns">
+     <%= f.input :precio_importancia, collection: @importancias, label: "", required: false %>
+    </div>
+
+    </fieldset>
+
+		 <br/>
+   <%= f.button :submit,  'Enviar',:class=>"small button" %>
+
+		<% end %>
+          </fieldset>
+
+
+
+         
+
+        <hr>
+      </div>
+    </div>
+
+    
+    </div>
+
+
+
+<script>
+  $(function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 500,
+      max: 2500,
+      values: [ 700, 2300 ],
+      slide: function( event, ui ) {
+        
+        $("#busqueda_min_price").val(ui.values[ 0 ]);
+        $("#busqueda_max_price").val(ui.values[ 1 ]);
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+  });
+  </script>

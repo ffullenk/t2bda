@@ -141,8 +141,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  better_errors (>= 0.7.2)
-  binding_of_caller (>= 0.7.1)
+  better_errors
+  binding_of_caller
   coffee-rails (~> 3.2.1)
   compass-rails (>= 1.0.3)
   figaro (>= 0.6.3)

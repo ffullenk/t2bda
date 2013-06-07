@@ -1,0 +1,32 @@
+ <!-- Main Feed -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    <div class="large-6 columns">
+ 
+  <% @productos.each do |producto| %> 
+      <!-- Feed Entry -->
+      <div class="row">
+        <div class="large-2 columns small-3"><img src="<%= producto.img%>" /></div>
+        <div class="large-10 columns">
+          <p><strong><%= producto.nombre%></strong> $<%= producto.precio %></p>
+          <ul class="inline-list">
+            <li><a href="">Ver más...</a></li>
+            <li><a href="">Share</a></li>
+          </ul>
+ 
+        </div>
+      </div>
+      <!-- End Feed Entry -->
+      <hr />
+ 
+      <%end%>
+ 
+    </div>
+ 
+    <!-- Right Sidebar -->
+    <!-- On small devices this column is hidden -->
+    <aside class="large-3 columns hide-for-small">
+      <p><img src="http://s3.argim.net/files/s/sony_zo7wbizw_toi.gif" /></p>
+      <p><img src="http://s3.argim.net/files/s/samsung_azul_gif_568.gif" /></p>
+    </aside>
+ 
+  </div>

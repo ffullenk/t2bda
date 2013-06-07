@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(:version => 20130605013207) do
 
-  create_table "productos", :force => true do |t|
+  create_table "productos", :force => true, :options => "ENGINE=MyISAM" do |t|
     t.string   "nombre"
     t.integer  "precio"
     t.string   "encodedsqlrow"
